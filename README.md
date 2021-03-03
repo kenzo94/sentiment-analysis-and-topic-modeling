@@ -1,5 +1,3 @@
-
-###Bachelorarbeit
 **Opinion Mining und Topic Modelling von Tweets:**
 *Eine Stimmungsanalyse über die aktuelle Situation der Covid-19 Pandemie in Deutschland mit Hilfe von Machine Learning auf Twitter*
 
