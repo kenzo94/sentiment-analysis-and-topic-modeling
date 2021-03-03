@@ -1,14 +1,20 @@
 **Opinion Mining und Topic Modelling von Tweets:**
 *Eine Stimmungsanalyse über die aktuelle Situation der Covid-19 Pandemie in Deutschland mit Hilfe von Machine Learning auf Twitter*
 
-Entwickelt mit Python 3.8 (siehe requirements.txt für Abhängigkeiten)
+Entwickelt mit Python 3.8 (siehe requirements.txt für Abhängigkeiten) und IDE PyCharm
 
-Autor: Hung Anh Le
-
----
+**Autor: Hung Anh Le**
 
 ---
+Usage:
+1. Install requirements: *pip install -r requirements.txt*
 
+   
+2. Install Spacy Models:
+   * python -m spacy download de_core_news_sm
+   * python -m spacy download de_core_news_lg
+
+---
 ## Quellen
 
 https://machinelearningmastery.com/cost-sensitive-svm-for-imbalanced-classification/
