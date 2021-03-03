@@ -1,3 +1,5 @@
+
+###Bachelorarbeit
 **Opinion Mining und Topic Modelling von Tweets:**
 *Eine Stimmungsanalyse über die aktuelle Situation der Covid-19 Pandemie in Deutschland mit Hilfe von Machine Learning auf Twitter*
 
@@ -6,13 +8,18 @@ Entwickelt mit Python 3.8 (siehe requirements.txt für Abhängigkeiten) und IDE 
 **Autor: Hung Anh Le**
 
 ---
-Usage:
+## Usage:
 1. Install requirements: *pip install -r requirements.txt*
 
    
 2. Install Spacy Models:
    * python -m spacy download de_core_news_sm
    * python -m spacy download de_core_news_lg
+
+---
+
+## Hotfix
+Merge span bug from spacymoji, change init.py of spacymoji according to: https://github.com/ines/spacymoji/pull/8/files 
 
 ---
 ## Quellen
@@ -63,7 +70,3 @@ Michael Wiegand, Maximilian Wolf and Josef Ruppenhofer "Negation Modeling for Ge
 
 Michael Wiegand et al. "Saarland University’s participation in the German sentiment analysis shared task (GESTALT)." , Workshop Proceedings of the 12th KONVENS. 2014. https://github.com/artificial-max/polcla/tree/master/polcla/src/main/resources/dictionaries [abgerufen 19.01.2021]
 
----
-
-## Hotfix
-Merge span bug from spacymoji, change init.py of spacymoji according to: https://github.com/ines/spacymoji/pull/8/files 
