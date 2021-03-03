@@ -3,11 +3,12 @@
 
 Entwickelt mit Python 3.8 (siehe requirements.txt für Abhängigkeiten) und IDE PyCharm
 
+
 **Autor: Hung Anh Le**
 
 ---
 ## Usage:
-1. Install requirements: *pip install -r requirements.txt*
+1. Install requirements: pip install -r requirements.txt
 
    
 2. Install Spacy Models:

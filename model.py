@@ -639,8 +639,8 @@ if __name__ == "__main__":
     print("Show some Statistics")
     print_statistics()
 
-    print("Hyperparam tuning ....")
     # uncomment, but will take a long time
+    #print("Hyperparam tuning ....")
     #svm_model_selection()
     #rf_model_selection()
 
@@ -651,8 +651,10 @@ if __name__ == "__main__":
     model_meta_bow((1, 2), stopwords, all_features)
     model_meta_tfidf((1, 1), stopwords, all_features)
 
+    # uncomment to check functionality, model already saved in model/*
     print("Save Final Model")
     # pickle_model((1, 2), stopwords, all_features)
 
+    # uncomment to check functionality, model already saved in resources/corpus/pred*
     print("Pred new data")
     #pred_new_data()
