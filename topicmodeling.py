@@ -176,7 +176,7 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start, step):
     "compute coherence to specify optimal nr of topics"
     coherence_values = []
     for num_topics in range(start, limit, step):
-        model = LdaModel(corpus=corpus, id2word=dictionary, num_topics=num_topics)
+        model = LdaModel(corpus=corpus, id2word=dictionary, num_topics=num_topics, random_state=100)
         coherencemodel = CoherenceModel(model=model, texts=texts, dictionary=dictionary, coherence='c_v')
         coherence_values.append(coherencemodel.get_coherence())
 

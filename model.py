@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
-from sklearn import svm, preprocessing
+from sklearn import svm
 from sklearn.svm import SVC
 from sklearn.preprocessing import MaxAbsScaler, MinMaxScaler
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
